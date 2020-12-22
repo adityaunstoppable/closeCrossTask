@@ -1,0 +1,85 @@
+.nav{
+    height:62px;
+    background-color:#272A2D;
+    display: flex;
+    align-items: center;    
+}
+
+.logo > img{
+    align-items: center;
+}
+
+
+.rectangles-1{
+    display: flex;
+    padding-left: 30px;
+}
+
+.white{
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid rgba(255 , 255 , 255 , 0.3);
+    text-align: center;
+    object-fit: contain;
+    font-size: 12px;
+    width:104px;
+    height: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: "Roboto" , sans-serif;
+}
+
+.dark{
+    background-color: inherit;
+    border-radius: 4px;
+    border: 1px solid rgba(255 , 255 , 255 , 0.3);
+    color:white;
+    text-align: center;
+    object-fit: contain;
+    font-size: 12px;
+    width:104px;
+    height: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: "Roboto" , sans-serif;
+}
+
+.white:hover{
+    transition: 200ms transform ease-in;
+    transform: scale(1.08) ;
+
+}
+
+.dark:hover{
+    transition: 200ms transform ease-in;
+    transform: scale(1.08) ;
+
+}
+
+.icon:hover{
+    transition: 200ms transform ease-in;
+    transform: scale(1.08) ;
+
+}
+
+.rectangles-2{
+    display: flex;
+    margin-left: 130px;
+}
+
+.rectangles-2 > button{
+    margin-left: 10px;
+}
+
+.icons{
+    margin-left: 130px; 
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    margin-left: 20px;
+    color: rgba(255 , 255 , 255 , 0.3);
+    cursor: pointer;
+}
+
